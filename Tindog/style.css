@@ -1,0 +1,250 @@
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+#features {
+    position: relative;
+    padding-top: 70px;
+    padding-left: 150px;
+    height: 420px;
+}
+#title{
+        background-color: #ff4c68;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-bottom: 20px;
+        height: 600px;
+        overflow: hidden;
+}
+
+#testimonials {
+    background: #ef8172;
+}
+.testimonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+#logo {
+    text-align: center;
+    background-color: #ef8172;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #fff;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1f1f1f;
+}
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    font-weight: bolder;
+}
+
+p {
+    color: #1f1f1f;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container {
+    padding-top: 3%;
+    padding-bottom: 7%;
+    padding-left: 2px;
+    color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-box {
+    padding: 2%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.text {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    float: left;
+    color: white;
+}
+.text-item{
+    padding: 0 18px;
+}
+.navbox{
+    display: block;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+.rotate-25 {
+    transform: rotate(25deg);
+  }
+.iphone {
+    width: 30%;
+    right: 30%;
+    position: absolute;
+}
+.phone-section{
+    flex: 0 0 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline;
+}
+#download {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px 15% 40px;
+}
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+#price {
+    padding: 100px;
+    background-color: white;
+}
+
+.price-column {
+    align-self: center;
+    padding: 3% 2%;
+    position: relative;
+    width: 28%;
+    min-height: 1px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #35111120;
+    border-radius: 0.25rem;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #00000008;
+    border-bottom: 1px solid #00000020
+}
+.cardbody{
+    padding: 2%;
+}
+.btn {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.25rem;
+    margin: 5%,3%;
+    cursor: pointer;
+    border-radius: 0.3rem
+}
+#footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 100px 15% 20%;
+    height: 100px;
+}
+.footer-link {
+    padding: 2.5%;
+    color: #000;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff4c68;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: aliceblue;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
