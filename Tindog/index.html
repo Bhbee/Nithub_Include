@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>TinDog</title>
     <link rel="stylesheet" href="style.css">
 
@@ -11,31 +14,42 @@
 
 </head>
 <body>
-
+    
     <section id="title">
-        <div class='container'>
-            <div class= 'navbox'>
-                <h2 class="text-item"><a class="text" href="">Tindog</a></h2>
-                <ul>
-                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#price">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
-                </ul>
-            </div>
 
-            <div class="row">
-                <div class="phone-section">
-                    <div>  
-                        <h1>Meet new and interesting dogs nearby.</h1>
-                        <button class='download-button btn btn-dark btn-lg' type="button"><i class="fab fa-apple"></i> Download</button>
-                        <button class='download-button btn btn-outline-light btn-lg' type="button"><i class="fab fa-google-play"></i>Download</button>
-                    </div>
-                    <div>
+    
+            <nav class="navbar" id="myTopnav">
+                <a href="#" class="nav-logo">Tindog</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#download" class="nav-link">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#price" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+
+            <div class="phone-section">
+                <div class="firstdiv">  
+                    <h1>Meet new and interesting dogs nearby.</h1>
+                    <button class='download-button btn btn-dark btn-lg' type="button"><i class="fab fa-apple"></i> Download</button>
+                    <button class='download-button btn btn-outline-light btn-lg' type="button"><i class="fab fa-google-play"></i>Download</button>
+                </div>
+                <div>
                         <img class="iphone rotate-25" src="images/iphone6.png" alt="iphone-mockup">
                     </div>
                 </div>
-            </div>
-        </div>  
+    
+            </div>  
     </section>
 
     <!-- Features -->
@@ -143,8 +157,38 @@
         </div>
     </section>
 
+    <section id="contact-form">
+        <div class="container">  
+            <h1 class="contas">Subcribe!</h1>
+            <p class="para">Fill in your details to suscribe to our newsletter</p>
+            <div class="formdiv">
+                <form name="myForm" action="/action_page.php" >
 
-    <!-- Footer -->
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="firstname"><br><br>
+                    <p id="demo"></p>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lastname"><br><br>
+                    <p id="dem"></p>
+
+                    <label for="emailAddr">Email:</label>
+                    <input type="email" id="emailAddr" name="emailAddress"><br><br>
+                    <p id="demo3"></p>
+
+                    <label for="tele">Phone no:</label>
+                    <input type="tel" id="tele" name="telephone"><br><br>
+                    <p id="demo2"></p>
+
+
+                    <!--<input type="submit" value="Submit"> -->
+                    <button class="myBtn" type="button" onclick="myFunction()">Submit </button>
+            </div>
+            </form>
+        </div>
+    </section>
+
+
 
     <footer id="footer">
         <div class="container">
