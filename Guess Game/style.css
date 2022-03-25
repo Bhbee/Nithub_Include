@@ -1,0 +1,59 @@
+h1{
+    margin-top: 20px;
+    color:#ff4c68;
+    font-size: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:black;
+}
+
+p{
+    color:#e1abfa;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    display: inline;
+    width: 100px;
+    padding: 30px 20px;
+    margin: 20px;
+    text-align:left;
+    font-size: 2rem;
+    color: #ff4c68;
+}
+input {
+    width: 60%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    display:inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:#252424;
+}
+#inputform {
+    border-radius: 5px;
+    padding: 20px;
+    color: #ff4c68;
+}
+.formdiv{
+    border-radius: 5px;
+    background-color: #f5e1e1;
+    padding: 20px;
+    width: 70%;
+    margin-left: 15%;
+    height: 30%;
+}
+#submitGuess{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 40%;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f58495;
+}
