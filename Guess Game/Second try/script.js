@@ -12,9 +12,10 @@ function myFunction() {
   }
   else if(guess === randomNumber)
   {
-    displayMessage = "You got it right"
+    displayMessage = "You got it right!!!!!!"
     document.querySelector(".question-mark").textContent = guess;
-    document.querySelector("body").style.backgroundColor = '#18bf18';
+    document.querySelector("body").style.backgroundColor = '#18b444';
+    
 
     if(Score > HighScore){
       HighScore = Score;
@@ -35,7 +36,8 @@ function myFunction() {
     else{
       displayMessage = "Game Over!";
       document.querySelector('.Score').textContent = 0;
-      document.querySelector('body').style.backgroundColor = '#ff0000';
+      document.querySelector('.guess').style.backgroundColor= '#f1c7c7';
+      document.querySelector('body').style.backgroundColor = '#f13a3a';
     }
   }
   document.getElementById("message").innerHTML = displayMessage;

@@ -1,8 +1,16 @@
 body{
-    background-color: black;
+    background-color: #02050a;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-weight: bold;
+    
+}
+.top-design{
+    padding: 0.5%;
+    height: 5%;
+    animation-name: coloring;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .top{
     height: 40%;
@@ -15,6 +23,12 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     word-spacing: 0.4cm;
 }
+@keyframes coloring{
+    0%   {background-color: #02050a}
+    25%  {background-color: #b1b13b;}
+    50%  {background-color: #f55a5a;}
+    100% {background-color: #0b5aa5;}
+}
 .question-mark{
     margin: auto;
     margin-top: 7%;
@@ -26,15 +40,18 @@ h1{
     height: 1.2cm;
     color: black;
     font-size: 20px;
+    
 }
 .btn{
+    cursor: pointer;
     font-size: 20px;
+    margin-top: 30px;
     padding: 5px;
     background-color: white;
     color: black;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    border-radius: 5%;
 }
 .below{
     display: flex;
@@ -44,11 +61,18 @@ h1{
     flex: 50%;
     padding: 10px;
 }
+.below-design{
+    padding: 0.5%;
+    height: 5%;
+    animation-name: coloring;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 .guess{
     width: 250px;
     height: 120px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: large;
     text-align: center;
     margin-left: 30%;
@@ -70,6 +94,7 @@ h1{
 }
 #message{
     margin: 15% 0% 10% 30%;
+    color: white;
 }
 .score{
  margin-left: 30%;
