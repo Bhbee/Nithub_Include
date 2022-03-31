@@ -1,4 +1,4 @@
-//function that returns even or odd numbers in an ar
+//function that returns even or odd numbers in an array
 
 function returnEvenNumbers(inputArray) {
     inputArray = inputArray.filter((number) => {
