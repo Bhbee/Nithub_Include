@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	color: #1f1f1f;
+}
+#title {
+	color: #fff;
+	width: 100%;
+	background: rgb(38, 38, 38);
+	background-size: cover;
+}
+.container-fluid{
+	padding: 2% 15% 2%;
+}
+.sign-in{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgb(255, 76, 104), rgba(0,0,0,0.7));
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+   
+}
+.sign-up{
+	width: 100%;
+	background:linear-gradient(rgb(255, 76, 104), rgba(0,0,0,0.7));
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 40px;
+}
+form{
+    width: 100%;
+    max-width: 600px;
+	padding: 20px;
+}
+.inputform{
+    margin-bottom: 30px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #000000b3;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    text-align: left;
+}
+
+label{
+    color: white;
+}
+button{
+	background-color: white;
+	color: #ff4c68;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    justify-content: center;
+    width: 100%;
+}
+button:hover{
+	background-color: #000000b3;
+	border: 2px solid #ff4c68;
+	cursor: pointer;
+}
+
+.contas{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+.navbar {
+	padding: 0 0 1rem;
+}
+.navbar-brand {
+	font-family: Ubuntu;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Poppins";
+	font-weight: bold;
+}
+@media (max-width: 1028px) {
+	#title {
+	  text-align: center;
+	}
+}

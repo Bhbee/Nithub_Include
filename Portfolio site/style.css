@@ -1,0 +1,166 @@
+body {
+	font-family: "Poppins", sans-serif;
+	color: #1f1f1f;
+}
+#title {
+	color: #fff;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.7), rgb(255, 76, 104));
+	background-size: cover;
+	background-position: center;
+}
+.picture-img {
+	border-radius: 6px;
+	width: 60%;
+	position: absolute;
+	right: 20%;
+	opacity: 0.6;
+}
+.picture-img:hover {
+	opacity: 0.8;
+	transition: all .4s ease-in-out;
+  }
+.rotate-5 {
+	transform: rotate(5deg);
+}
+
+h1 {
+	font-family: "Poppins", sans-serif;
+	line-height: 1.5;
+	font-size: 3rem;
+	font-weight: bolder;
+	color: #fff;
+}
+h2 {
+	font-family: "Poppins", sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #1f1f1f;
+}
+h3 {
+	font-family: "Poppins", sans-serif;
+	color: #1f1f1f;
+	font-weight: bolder;
+}
+.icon {
+	color: rgba(5, 5, 5, 0.918);
+	margin-bottom: 5%;
+}
+.icon :hover {
+	color: #ff4c68;
+}
+.container-fluid {
+	padding: 3% 15% 3%;
+}
+
+.navbar {
+	padding: 0 0 4.5rem;
+}
+.navbar-brand {
+	font-family: Ubuntu;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Poppins";
+	font-weight: bold;
+}
+
+#education{
+	padding: 7% 15%;
+	text-align: center;
+	line-height: 1.5;
+	background-color: #fff;
+	z-index: 1;
+	position: relative;
+}
+.education-box {
+	padding: 5%;
+}
+#contact{
+	height: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.contact-me{
+	padding-top: 5;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgb(255, 76, 104), rgba(0, 0, 0, 0.702));
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.inputform{
+    margin-bottom: 30px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #000000b3;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+}
+button{
+	background-color: white;
+	color: #ff4c68;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    justify-content: center;
+    width: 100%;
+}
+button:hover{
+	background-color: #000000b3;
+	border: 2px solid #ff4c68;
+	cursor: pointer;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid white;
+    color: #000000b3;
+    background: transparent;
+    font-size: 15px;
+    text-align: center;
+}
+#footer {
+	background-color: #fff;
+	text-align: center;
+	padding: 3% 15% 3%;
+}
+.spanSpace {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.social {
+	padding-bottom: 5%;
+}
+  
+@media (max-width: 1028px) {
+	#title {
+	  text-align: center;
+	}
+	.picture-img {
+	  position: static;
+	  transform: rotate(0);
+	}
+}
+  
